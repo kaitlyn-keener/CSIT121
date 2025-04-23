@@ -1,0 +1,56 @@
+#navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: white;
+}
+#navbar a {
+    float: left;
+    display: block;
+    color: darksalmon;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+#navbar a:hover {
+    background-color: lightcoral;
+    color: white;
+  }
+#navbar a.active {
+    background-color: hotpink;
+    color: white;
+}
+body {
+    background-color: antiquewhite;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+caption {
+    padding: 10px;
+}
+.content-table {
+    border: 1px solid rebeccapurple;
+    border-collapse: collapse;
+    font-size: 20px;
+    min-width: 400px;
+}
+.content-table thead tr {
+    background-color:palevioletred;
+    color: antiquewhite;
+    text-align: left;
+    font-weight: bold;
+}
+.content-table th, .content-table td {
+    padding: 12px 15px;
+}
+.content-table tbody tr {
+    border-bottom: 1px solid black;
+}
+tr:nth-child(even) {
+    background-color: lightpink;
+}
+tr:nth-child(odd) {
+    background-color: lavender;
+}
