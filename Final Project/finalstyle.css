@@ -1,0 +1,134 @@
+#bodylab6 {
+    background-color: orange;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+#headerlab6 {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    margin: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 85%;
+}
+section {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 75%;
+}
+#imglab6 {
+    width: 1200px;
+    max-width: 100%;
+    height: auto;
+}
+
+#bodylab7 {
+    background-color: antiquewhite;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+caption {
+    padding: 10px;
+}
+.content-table {
+    border: 1px solid rebeccapurple;
+    border-collapse: collapse;
+    font-size: 20px;
+    min-width: 400px;
+}
+.content-table thead tr {
+    background-color:palevioletred;
+    color: antiquewhite;
+    text-align: left;
+    font-weight: bold;
+}
+.content-table th, .content-table td {
+    padding: 12px 15px;
+}
+.content-table tbody tr {
+    border-bottom: 1px solid black;
+}
+tr:nth-child(even) {
+    background-color: lightpink;
+}
+tr:nth-child(odd) {
+    background-color: lavender;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: white;
+}
+#navbar a {
+    float: left;
+    display: block;
+    color: darksalmon;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+#navbar a:hover {
+    background-color: lightcoral;
+    color: white;
+  }
+#navbar a.active {
+    background-color: hotpink;
+    color: white;
+  }
+#bodylab4 {
+    margin: 0;
+    background-color: goldenrod;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+}
+h1 {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: darkgreen;
+}
+h2 {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    background-color:darkgreen;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+a {
+    color:sandybrown;
+}
+#content {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    margin: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 75%;
+    overflow: auto;
+}
+#imglab4 {
+    padding-right: 20px;
+    padding-bottom: 20px;
+    float: left;
+    max-width: 25%;
+    height: auto;
+}
